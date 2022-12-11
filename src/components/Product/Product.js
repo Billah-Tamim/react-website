@@ -9,7 +9,7 @@ function Product(props) {
     const {clickProduct} = props;
     return (
         <div className='product'>
-            <img src={img} alt="" ></img>
+            <img src={img} alt="" />
             <div className="product-info">
                 <p className='name'>{name}</p>
                 <p className='price'>Price: ${price}</p>
